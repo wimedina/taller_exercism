@@ -11,5 +11,5 @@ def to_rna(dna_strand):
             elif dna_strand[i] == "T":
                 rna_strand += "A"
             elif dna_strand[i] == "A":
-                rna_strand += "U"            
+                rna_strand += "U"           
     return rna_strand
